@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>15-dars</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- <form action="https://echo.htmlacademy.ru" method="POST">
+
+    <div class="input-group">
+
+      <h3>Qanday muzqaymoq yeysiz?</h3>
+
+      <fieldset>
+        <legend>Muzqaymoq turlari</legend>
+        <label>
+          <input type="checkbox" name="banana"> Banan
+        </label>
+
+        <label>
+          <input type="checkbox" name="chocolate"> Shokoladli
+        </label>
+
+        <label>
+          <input type="checkbox" name="strawberry"> Qulupnay
+        </label>
+
+        <label>
+          <input type="checkbox" name="raspberry"> Malina
+        </label>
+
+        <label>
+          <input type="checkbox" name="molochniy"> Molochniy
+        </label>
+
+        <label>
+          <input type="checkbox" name="kiwi"> Kivi
+        </label>
+
+      </div>
+
+      <div class="size-group">
+
+        <label>
+          <input type="radio" name="size" value="small"> Kichik
+        </label>
+
+        <label>
+          <input type="radio" name="size" value="madium"> O'rta
+        </label>
+
+        <label>
+          <input type="radio" name="size" value="big"> Katta
+        </label>
+
+        <label>
+          <input type="radio" name="size" value="very-big"> Juda katta
+        </label>
+      </fieldset>
+
+    </div>
+
+    <button type="submit">Yuborish</button>
+
+  </form> -->
+
+  <header class="site-header">
+
+    <div class="container">
+
+      <div class="site-header-top">
+
+        <a class="logo-site-link" href="#">
+          <img class="logo-site" src="img/namanganliklar-logo.png" alt="logo namanganliklar24" width="302" height="21" srcset="img/namanganliklar-logo.png 1x, img/namanganliklar-logo@2x.png 2x">
+        </a>
+
+        <ul class="currencies">
+
+          <li class="currencies-item">
+            <span class="currencies-logo">$</span> 10137.2
+          </li>
+
+          <li class="currencies-item">
+            <span class="currencies-logo">P</span> 138.26
+          </li>
+
+          <li class="currencies-item">
+            <span class="currencies-logo">E</span> 10988.72
+          </li>
+
+        </ul><!-- currencies -->
+
+        <form class="search-form" action="https://echo.htmlacademy.ru" method="GET">
+
+          <input class="input-search" type="search" name="search" placeholder="Поиск">
+
+          <button class="button-search" type="submit">
+            <img class="button-search-img" src="img/search-icon.png" alt="search icon" width="24" height="24">
+          </button>
+
+        </form>
+
+        <select class="language-selection" name="language_selection">
+          <option value="english">Eng</option>
+          <option value="russian">Ru</option>
+          <option value="uzbek">Uz</option>
+        </select>
+
+        <a class="telegram-link" href="#" target="blank">Подписатся</a>
+
+      </div><!-- site-header-top -->
+
+      <nav class="pages-container">
+
+        <ul class="pages">
+
+          <li class="pages-item">
+            <a class="pages-item-links" href="#">Узбекистана</a>
+          </li>
+
+          <li class="pages-item">
+            <a class="pages-item-links" href="#">Мир</a>
+          </li>
+
+          <li class="pages-item">
+            <a class="pages-item-links" href="#">Экономика</a>
+          </li>
+
+          <li class="pages-item">
+            <a class="pages-item-links pages-item-links-politics" href="#">Политика</a>
+          </li>
+
+          <li class="pages-item">
+            <a class="pages-item-links" href="#">Общество</a>
+          </li>
+
+          <li class="pages-item">
+            <a class="pages-item-links" href="#">Технологии</a>
+          </li>
+
+          <li class="pages-item">
+            <a class="pages-item-links" href="#">Спорт</a>
+          </li>
+
+          <li class="pages-item">
+            <a class="pages-item-links" href="#">Культура</a>
+          </li>
+
+          <li class="pages-item">
+            <a class="pages-item-links" href="#">Происшествия</a>
+          </li>
+
+          <li class="pages-item pages-item-last">
+            <a class="pages-item-links" href="#">Туризм</a>
+          </li>
+
+        </ul>
+
+      </nav><!-- pages-container -->
+
+      <img class="site-header-advertisement" src="img/nrg-banner.png" alt="nrg company advertising" width="1200" height="99" srcset="img/nrg-banner.png 1x, img/nrg-banner@2x.png 2x">
+
+    </div><!-- container -->
+
+  </header><!-- site-header -->
+
+  <main class="main-write-us">
+
+    <div class="container container-subscribe">
+
+      <section class="email-us">
+
+        <h2 class="email-us-title">Напишите нам</h2>
+
+        <form class="email-us-form" action="https://echo.htmlacademy.ru" method="POST">
+
+          <input class="input" type="text" aria-label="input name" placeholder="Имя" required>
+
+          <input class="input" type="email" aria-label="input email" placeholder="Электронная почта" required>
+
+          <input class="input" type="tel" aria-label="input telephone number" placeholder="Номер телефона" required>
+
+          <input class="input" type="text" aria-label="message contents" placeholder="Тема" required>
+
+          <textarea class="textarea" name="textarea" aria-label="message" placeholder="Текст" required></textarea>
+
+          <div class="file-input">
+
+            <label class="file-input-label" for="file-input">Прикрепить файл</label>
+
+            <input class="visually-hidden" name="file input" type="file" id="file-input" required>
+
+          </div><!-- file-input -->
+
+          <div class="send-code">
+
+            <input class="file-input" type="password" aria-label="input password" placeholder="Код" required>
+
+            <p class="send-code-text">4 k 7 Z a</p>
+
+          </div>
+
+          <button class="file-input button-send-message" type="submit">Отправить</button>
+
+        </form>
+
+      </section><!-- email-us -->
+
+      <section class="subscribe">
+
+        <h2 class="visually-hidden">Subrcribe section</h2>
+
+        <img class="subscribe-logo-site" src="img/subscribe-logo-site.png" alt="logo site" width="300" height="21" srcset="img/subscribe-logo-site.png 1x, img/subscribe-logo-site@2x.png 2x">
+
+        <div class="subscribe-item">
+
+          <p class="subscribe-text">Электронная почта</p>
+
+          <a class="subscribe-link subscribe-email-site" href="#">info@namanganliklar24.uz</a>
+
+        </div><!-- subscribe-item -->
+
+        <div class="subscribe-item">
+
+          <p class="subscribe-text">Социальные сети</p>
+
+          <div class="subscribe-item-social-network">
+
+            <a class="subscribe-link subscribe-social-network" href="#" target="blank"><img class="subrcribe-social-network-img" src="img/subscribe-facebook-icon.png" alt="subscribe facebook icon" width="32" height="32" srcset="img/subscribe-facebook-icon.png 1x, img/subscribe-facebook-icon@2x.png 2x"></a>
+
+            <a class="subscribe-link subscribe-social-network" href="#" target="blank"><img class="subrcribe-social-network-img" src="img/subscribe-twitter-icon.png" alt="subscribe twitter icon" width="32" height="32" srcset="img/subscribe-twitter-icon.png 1x, img/subscribe-twitter-icon@2x.png 2x"></a>
+
+            <a class="subscribe-link subscribe-social-network" href="#" target="blank"><img class="subrcribe-social-network-img" src="img/subscribe-ok-icon.png" alt="subscribe odnoklassniki icon" width="32" height="32" srcset="img/subscribe-ok-icon.png 1x, img/subscribe-ok-icon@2x.png 2x"></a>
+
+          </div><!-- subscribe-item-social-network -->
+
+        </div><!-- subscribe-item -->
+
+        <div class="subscribe-item">
+
+          <p class="subscribe-text">Телеграм канал</p>
+
+          <a class="subscribe-link telegram-link subscribe-telegram-link" href="#" target="blank">Подписатся</a>
+
+        </div><!-- subscribe-item -->
+
+        <div class="subscribe-item subscribe-item-last">
+
+          <p class="subscribe-text">Мобильная приложение</p>
+
+          <a class="subscribe-link subscribe-mobile-app" href="#"><img src="img/mobile-app-google-play.jpg" alt="mobile app google play" width="109" height="33" srcset="img/mobile-app-google-play.jpg 1x, img/mobile-app-google-play@2x.jpg 2x"></a>
+
+          <a class="subscribe-link subscribe-mobile-app" href="#"><img src="img/mobile-app-app-store.jpg" alt="mobile app App Store" width="109" height="33" srcset="img/mobile-app-app-store.jpg 1x, img/mobile-app-app-store@2x.jpg 2x"></a>
+
+        </div><!-- subscribe-item subscribe-item-last -->
+
+      </section><!-- subscribe -->
+
+    </div><!-- container-subscribe -->
+
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="container">
+
+      <div class="footer-top">
+
+        <a class="footer-logo-site-link" href="#">
+          <img class="footer-logo-site" src="img/footer-site-logo.png" alt="site logo" width="171" height="13" srcset="img/footer-site-logo.png 1x, img/footer-site-logo@2x.png 2x">
+        </a>
+
+        <div class="footer-top-telegram">
+
+          <p class="footer-top-text">Подписывайтесь на наш канал в Telegram и будьте всегда в курсе самых последних новостей:</p>
+
+          <a class="telegram-link footer-telegram-link" href="#" target="blank">Подписатся</a>
+
+        </div><!-- footer-top-telegram -->
+
+      </div><!-- footer-top -->
+
+      <div class="footer-navigation">
+
+        <div class="footer-about-site">
+
+          <h3 class="footer-about-site-title">О сайте </h3>
+
+          <p class="footer-about-site-title footer-about-site-text">Воспроизводство, копирование, тиражирование, распространение и иное использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.
+          </p>
+
+        </div><!-- footer-about-site -->
+
+        <ul class="footer-pages">
+
+          <li class="footer-pages-item">
+            <a class="footer-pages-links" href="#">Информация о сайте</a>
+          </li>
+
+          <li class="footer-pages-item">
+            <a class="footer-pages-links" href="#">Напишите нам</a>
+          </li>
+
+          <li class="footer-pages-item">
+            <a class="footer-pages-links" href="#">Реклама</a>
+          </li>
+
+          <li class="footer-pages-item">
+            <a class="footer-pages-links" href="#">Прислать новость</a>
+          </li>
+
+          <li class="footer-pages-item">
+            <a class="footer-pages-links" href="#">Использование материалов</a>
+          </li>
+
+          <li class="footer-pages-item">
+            <a class="footer-pages-links" href="#">Темы дня</a>
+          </li>
+
+          <li class="footer-pages-item">
+            <a class="footer-pages-links" href="#">Наша команда</a>
+          </li>
+
+        </ul>
+
+      </div><!-- footer-navigation -->
+
+    </div><!-- container -->
+
+  </footer><!-- site-footer -->
+
+</body>
+</html>
